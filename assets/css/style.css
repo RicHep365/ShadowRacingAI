@@ -21,7 +21,8 @@ img {
 }
 
 .about-heading,
-.results-heading {
+.results-heading,
+.contact-heading {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     letter-spacing: 0.1em;
@@ -32,7 +33,8 @@ img {
 
 /*--------------------------------------------center Icons*/
 
-.fa-poll {
+.fa-poll,
+.fa-envelope-open-text{
     font-size: 50px;
     Margin-top: 40px;
     color: #e0443c;
@@ -181,6 +183,66 @@ img {
     justify-content: center;
 }
 
+/*---------------------------contact section*/
+
+.contact-section {
+    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0.616), #475867), url(../images/horse-racing1.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #212121;
+}
+
+.contact-message {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.center-form {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 10px;
+    margin: 0px auto;
+    max-width: 60%;
+    text-align: center;
+}
+
+.form-margin {
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    font-family: "Proxima Nova", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #212121;
+    background-color: #45D6A3;
+    border: 0.5px;
+}
+
+.btn-secondary:hover {
+    font-family: "Proxima Nova", sans-serif;
+    background-color: #699bcf;
+    color: #212121;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
@@ -275,7 +337,8 @@ footer {
         font-size: 20px;
     }
     .about-heading,
-    .results-heading {
+    .results-heading,
+    .contact-heading {
         font-size: 24px;
     }
 
