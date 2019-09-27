@@ -49,7 +49,11 @@ img {
 
 /*Found in Stackoverflow on search to remove toggler border, link in readme*/
 
-
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
 
 .navbar-toggler {
     padding-top: 13px;
