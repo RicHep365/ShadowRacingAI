@@ -47,13 +47,9 @@ img {
 
 /*--------------------------------------------nav*/
 
-/*Found in Stackoverflow on search to remove toggler border*/
+/*Found in Stackoverflow on search to remove toggler border, link in readme*/
 
-.navbar-toggler:focus,
-.navbar-toggler:active {
-    outline: none;
-    box-shadow: none;
-}
+
 
 .navbar-toggler {
     padding-top: 13px;
@@ -242,6 +238,13 @@ button[type="submit"] {
     -moz-transition: all 0.50s ease-in-out;
     -webkit-transition: all 0.50s ease-in-out;
     -o-transition: all 0.50s ease-in-out;
+}
+
+.center-form input:focus,
+.center-form textarea:focus,
+.center-form select:focus {
+border-color: #e0443c;
+box-shadow: 0 0 1px #e0443c inset;
 }
 
 /*--------------------------------------------Affiliates*/
