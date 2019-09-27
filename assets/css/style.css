@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500|Source+Sans+Pro:100,200,300,400,500');
+
+/*------------------------------------------General*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+/*--------------------------------------------nav*/
+
+/*Found in Stackoverflow on search to remove toggler border*/
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    padding-top: 13px;
+    padding-right: 12px;
+}
+
+.navbar-toggler i {
+    color: #45D6A3;
+    font-size: 35px;
+}
+
+.nav-link {
+    font-family: "Oswald", san-serif;
+    font-size: 25px;
+    letter-spacing: 0.02em;
+    font-weight: 100;
+    margin-right: 20px;
+    color: #45D6A3;
+    text-align: right;
+}
+
+.nav-item a:hover {
+    color: #699bcf;
+}
+
+.nav-item a:active {
+    color: #699bcf;
+    font-weight: 300;
+}
+
+
+/*--------------------------------------------Heading*/
+
+.bg-img {
+    background-image: linear-gradient(to bottom, #475867a9, #374450e0), url(../images/Horsesmain.jpg);
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Flex display found in Stackoverflow on search to resize images automatically*/
+
+#logo {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    transition: ease-in-out 1s;
+}
+
+.tagline {
+    font-family: "Oswald", san-serif;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0.02em;
+    font-weight: 100;
+    color: #699bcf;
+}
+
+.fa-chevron-circle-down {
+    font-size: 50px;
+    Margin-top: 150px;
+    color: #e0443c;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+/*--------------------------------------------media queries*/
+
+@media(max-width: 1024px) {
+    .bg-img {
+        max-height: 800px;
+    }
+    .tagline {
+        font-size: 25px;
+    }
+    .navbar-toggler i {
+        font-size: 25px;
+    }
+    .fa-chevron-circle-down {
+        font-size: 42px;
+    }
+    .nav-link {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:412px) {
+    .tagline {
+        font-size: 17px;
+    }
+    .bg-img {
+        max-height: 600px;
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+    .navbar-toggler i {
+        font-size: 17px;
+    }
+    .fa-chevron-circle-down {
+        font-size: 35px;
+    }
+}

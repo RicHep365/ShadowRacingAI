@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proxima+Nova">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>ShadowRacingAI</title>
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar fixed-top navbar-right">
+            <a href="" class="navbar-brand"></a>
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#shadow-nav" aria-controls="navbar" aria-expanded="false">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-ellipsis-v"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="shadow-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#results">RESULTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#affiliates">AFFILIATES</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="bg-img">
+            <div id="logo">
+                <img src="./assets/images/trans.png" class="text-center full-logo">
+            </div>
+            <div class="tagline">Using Artificial Intelligence to beat the horse markets</div>
+            <a target="#" href="#aboutus">
+                <i class="fas fa-chevron-circle-down" aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
+
+</body>
+
+</html>
+
+<script>
+    $(document).on('click', function() {
+        $('.collapse').collapse('hide');
+    })
+</script>
