@@ -188,6 +188,7 @@ img {
 .contact-section {
     background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0.616), #475867), url(../images/horse-racing1.jpg);
     height: 100%;
+    width:100%;
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
