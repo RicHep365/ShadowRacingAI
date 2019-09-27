@@ -20,6 +20,27 @@ img {
     text-align: center;
 }
 
+.about-heading,
+.results-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+/*--------------------------------------------center Icons*/
+
+.fa-poll {
+    font-size: 50px;
+    Margin-top: 40px;
+    color: #e0443c;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
 /*--------------------------------------------nav*/
 
 /*Found in Stackoverflow on search to remove toggler border*/
@@ -59,14 +80,7 @@ img {
     font-weight: 300;
 }
 
-.about-heading {
-    font-family: "Oswald", sans-serif;
-    font-weight: 200;
-    letter-spacing: 0.1em;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #212121;
-}
+
 
 /*--------------------------------------------Heading*/
 
@@ -117,8 +131,9 @@ img {
 }
 
 .about-us-text {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "source sans pro", sans-serif;
     font-weight: 300;
+    font-size:18px;
     letter-spacing: 0.1em;
     color: rgb(71, 71, 71);
     margin-top: 25px;
@@ -131,6 +146,41 @@ img {
     Margin-top: 20px;
     color: #e0443c
 }
+
+/*--------------------------------------------results*/
+
+.results-section {
+    background-color: #475867;
+    height: 100%;
+}
+
+.results-heading {
+    color: #fafafa;
+}
+
+.results-message {
+    font-family: "source sans pro", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    letter-spacing: 0.05;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #fafafa;
+}
+
+.chart-section {
+    background-color: #475867;
+    padding-bottom: 50px;
+}
+
+
+/*taken from an answer on stackoverflow, link in readme*/
+
+#chart {
+    display: flex;
+    justify-content: center;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
@@ -224,7 +274,18 @@ footer {
     .nav-link {
         font-size: 20px;
     }
-}
+    .about-heading,
+    .results-heading {
+        font-size: 24px;
+    }
+
+    .about-us-text {
+        font-size: 16px;
+    }
+
+    .results-message {
+        font-size: 20px;
+    }
 
 @media(max-width:412px) {
     .tagline {
