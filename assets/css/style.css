@@ -22,7 +22,8 @@ img {
 
 .about-heading,
 .results-heading,
-.contact-heading {
+.contact-heading,
+.affiliate-heading h3 {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     letter-spacing: 0.1em;
@@ -34,7 +35,8 @@ img {
 /*--------------------------------------------center Icons*/
 
 .fa-poll,
-.fa-envelope-open-text{
+.fa-envelope-open-text,
+.fa-handshake{
     font-size: 50px;
     Margin-top: 40px;
     color: #e0443c;
@@ -81,8 +83,6 @@ img {
     color: #699bcf;
     font-weight: 300;
 }
-
-
 
 /*--------------------------------------------Heading*/
 
@@ -162,7 +162,7 @@ img {
 
 .results-message {
     font-family: "source sans pro", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 24px;
     letter-spacing: 0.05;
     margin-top: 25px;
@@ -204,7 +204,7 @@ img {
 }
 
 .contact-message {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "source sans pro", sans-serif;
     font-weight: 300;
     letter-spacing: 0.05;
     margin-top: 25px;
@@ -213,6 +213,7 @@ img {
 }
 
 .center-form {
+    font-family: "source sans pro", sans-serif;
     background-color: rgba(0, 0, 0, 0);
     padding-top: 10px;
     margin: 0px auto;
@@ -225,7 +226,7 @@ img {
 }
 
 button[type="submit"] {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "source sans pro", sans-serif;
     margin-top: 30px;
     margin-bottom: 40px;
     color: #212121;
@@ -234,7 +235,7 @@ button[type="submit"] {
 }
 
 .btn-secondary:hover {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "source sans pro", sans-serif;
     background-color: #699bcf;
     color: #212121;
     transition: all 0.50s ease-in-out;
@@ -242,6 +243,52 @@ button[type="submit"] {
     -webkit-transition: all 0.50s ease-in-out;
     -o-transition: all 0.50s ease-in-out;
 }
+
+/*--------------------------------------------Affiliates*/
+
+.affiliate-heading {
+    background-color: #fafafa7e;
+    text-align: center;
+}
+
+.affiliate-message {
+    font-family: "source sans pro", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #212121
+}
+
+#affiliate-link {
+    padding: 40px;
+    min-height: 200px;
+    background-color: #fafafa7e;
+    color: #212121;
+}
+
+.bookie {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.bookie-logo {
+    height: 120px;
+    width: 120px;
+    border-radius: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.offer-text {
+    font-family: "source sans pro", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgb(71, 71, 71);
+    padding-bottom: 20px;
+}
+
 
 /*--------------------------------------------Footer*/
 
@@ -317,6 +364,14 @@ footer {
     .bg-img {
         max-height: 800px;
     }
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+        text-align: center;
+    }
+
     .tagline {
         font-size: 25px;
     }
@@ -368,7 +423,10 @@ footer {
         font-size: 35px;
         Margin-top: 15px;
     }
-    .fa-chevron-circle-down {
+    .fa-chevron-circle-down,
+    .fa-envelope-open-text,
+    .fa-handshake,
+    .fa-poll {
         font-size: 35px;
     }
     .about-heading {
