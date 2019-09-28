@@ -91,6 +91,10 @@ me using Brandmark.io
 
 Acknowledgements
 
+Addition of smooth scrolling was found at CCS-Tricks
+
+https://css-tricks.com/snippets/jquery/smooth-scrolling/
+
 The javascript to close the toggle icon when navigating away, was taken from the following stackoverflow answer
 
 <script>
