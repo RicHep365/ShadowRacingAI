@@ -95,7 +95,9 @@ Addition of smooth scrolling was found at CCS-Tricks
 
 https://css-tricks.com/snippets/jquery/smooth-scrolling/
 
-The javascript to close the toggle icon when navigating away, was taken from the following stackoverflow answer
+This doesn't not work on IE or Safari it requires javascript to fix this issue, but that's outside te scope of this project.
+
+The short peice of javascript to close the toggle icon when navigating away, was taken from the following stackoverflow answer
 
 <script>
     $(document).on('click', function() {
