@@ -197,19 +197,10 @@ img {
     background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0.616), #475867), url(../images/horse-racing1.jpg);
     height: 100%;
     background-attachment: fixed;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
     background-size: cover;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flex;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Chrome */
-    display: flex;         /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
 }
 
 
