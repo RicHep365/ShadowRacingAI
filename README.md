@@ -23,7 +23,7 @@ Features
 The site has a modern navigation using the fa-ellipsis-v (three vertical dots) which is always collapsed to give the
 website the clean design is requires. It has smooth scrolling using the scroll-behaviour: smooth; attribute. Modern,
 but popular fonts were selected and imported from google fonts. I have used uniform icons from font awesome for each
-section of the site to give it continuity.
+section of the site to give it continuity. A favicon has been added using a 16x16 version of the logo png.
 
 Features Left to Implement
 
@@ -111,7 +111,8 @@ The following code to remove the border from the toggle icon, when clicked, was 
 
 https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4
 
-The code to change the focus colour of the active form cells was found at the following link
+The code to change the focus colour of the active form cells was found at the following link.
+
 https://blog.blakesimpson.co.uk/read/71-changing-the-twitter-bootstrap-input-outline-color
 
 .center-form input:focus,
@@ -120,6 +121,10 @@ https://blog.blakesimpson.co.uk/read/71-changing-the-twitter-bootstrap-input-out
 border-color: #e0443c;
 box-shadow: 0 0 1px #e0443c inset;
 }
+
+I also had to look up how to add a favicon, and found the simple answer here.
+
+https://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page
 
 
 
