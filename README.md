@@ -10,13 +10,13 @@ Technologies
     1.	HTML
     2.	CSS
     3.	jquery
-    4.	javascript (potentially)
+    4.	javascript
+    5.  Bootstrap 4.3.1
 
 External sources
 
-    1. Bootstrap 4.3.1
-    2. Font-Awesome
-    3. Google Fonts
+    1. Font-Awesome
+    2. Google Fonts
 
 Features
 
@@ -24,6 +24,7 @@ The site has a modern navigation using the fa-ellipsis-v (three vertical dots) w
 website the clean design is requires. It has smooth scrolling using the scroll-behaviour: smooth; attribute. Modern,
 but popular fonts were selected and imported from google fonts. I have used uniform icons from font awesome for each
 section of the site to give it continuity.
+
 Features Left to Implement
 
 As present the site is purely for advertising purposes, in the future I will add sign up and login features behind a
@@ -38,7 +39,8 @@ Alternatively, the toggler dropdown menu provides the user with the option to sc
 this also uses the smooth scroll-behaviour attribute. The menu automatically closes when navigated away from using some
 additional javascript.
 
-The contact form is not yet functional.
+The contact form is not yet functional, the button takes you back to the home page. However it includes validation that each
+section has been completed.
 
 The bookmaker logos in the affiliate section link directly to their websites and open in a separate browser window using
 'target="_blank"', as do the social icons in the footer (these only link to the home page of the sites as no social sites
@@ -46,20 +48,35 @@ currently exist for Shadow Racing). User Guide, Disclaimer and T&Cs can be downl
 attribute. All links have been tested multiple time to ensure they link to the correct site / document.
 
 I have tested the website on all the main browsers including IE, Chrome, Firefox, Safari and Opera. It has also been tested
-on smaller screens from ipad pro down to iphone5 using the inspect function in google chrome. Media queries have been
-extensively used to re-size the text and icons when used on smaller devices.
+on smaller screens from ipad pro down to iphone5 using the inspect function in google chrome and an IOS device. Media queries
+have been extensively used to re-size the text and icons when used on smaller devices.
 
 During the testing phase, it became apparent that the logo and chart images were not re-sizing dependent on device, rather
 than use a media query I opted for the following code which force the images to resize as the screen size is reduced.
 
+display: flex;
+justify-content: center;
+
+However despite the website working perfectly on all sizes in google chromes inspect feature, the was not the case when viewed
+on an actual IOS device. Addtional code was required in order to stop the logo from mis-shaping on all devices.
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flex;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
+    -webkit-box-align: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
 
 Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically
 upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be
 named index.html. The site is published at https://richep365.github.io/ShadowRacingAI/
+
 Credits
 
 Content
