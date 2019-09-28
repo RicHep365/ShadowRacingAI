@@ -199,7 +199,6 @@ img {
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-position:center;
-
 }
 
 
@@ -449,8 +448,5 @@ footer {
         font-size: 25px;
     }
 
-    .contact-section {
-        background-attachment: initial;
-    }
 }
 
