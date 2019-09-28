@@ -448,4 +448,9 @@ footer {
     .about-heading {
         font-size: 25px;
     }
+
+    .contact-section {
+        background-attachment: initial;
+    }
 }
+
