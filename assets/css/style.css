@@ -2,6 +2,10 @@
 
 /*------------------------------------------General*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -102,11 +106,11 @@ img {
     padding-top: 200px;
     align-items: center;
     transition: ease-in-out 1s;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flex;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Chrome */
-    display: flex;         /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
     justify-content: center;
     -webkit-box-align: center;
     -webkit-flex-align: center;
