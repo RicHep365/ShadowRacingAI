@@ -103,7 +103,7 @@ img {
 /*Flex display found in Stackoverflow on search to resize images automatically*/
 
 #logo {
-    padding-top: 200px;
+    padding-top: 150px;
     align-items: center;
     transition: ease-in-out 1s;
     display: -webkit-box;
@@ -129,7 +129,7 @@ img {
 
 .fa-chevron-circle-down {
     font-size: 50px;
-    Margin-top: 150px;
+    Margin-top: 100px;
     color: #e0443c;
     display: inline-block;
     width: 100%;
