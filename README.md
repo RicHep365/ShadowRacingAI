@@ -1,11 +1,11 @@
-Code Institute User-Centric Frontend Development - Shadow Racing AI
+__**Code Institute User-Centric Frontend Development - Shadow Racing AI**__
 
 The goal of this website is to create leads for an artificial intelligence-based horse racing tipping service.
 
 Given that the tipping service is based on artificial intelligence, the website needs to have a modern slick design
 which gives the right impression to potential users.
 
-Technologies
+**Technologies**
 
     1.	HTML
     2.	CSS
@@ -13,31 +13,43 @@ Technologies
     4.	javascript
     5.  Bootstrap 4.3.1
 
-External sources
+**External sources**
 
     1. Font-Awesome
     2. Google Fonts
 
-Features
+__**Features**__
 
 The site has a modern navigation using the fa-ellipsis-v (three vertical dots) which is always collapsed to give the
 website the clean design is requires. It has smooth scrolling using the scroll-behaviour: smooth; attribute. Modern,
 but popular fonts were selected and imported from google fonts. I have used uniform icons from font awesome for each
 section of the site to give it continuity. A favicon has been added using a 16x16 version of the logo png.
 
-Features Left to Implement
+**Features Left to Implement**
 
 As present the site is purely for advertising purposes, in the future I will add sign up and login features behind a
 pay wall, a user section where they can see the day tips and also add a chart which automatically updates from results
 rather than a static image and will be interactive for users.
 
-Testing
+__**User Story**__
 
-The website has an enticing home page which draws the user in. The chevron on the home page takes the user down to the
-about us section when clicked. It uses smooth scrolling so there’s no jerky movements to the site and it navigates well.
-Alternatively, the toggler dropdown menu provides the user with the option to scroll to the other sections of the website,
-this also uses the smooth scroll-behaviour attribute. The menu automatically closes when navigated away from using some
-additional javascript.
+As a user I am looking for a relaiable horse tipping service, that can provide me with daily tips with a simple user
+experience.
+
+I want a service that can provide me with consistant monthly profits, for a minimum of effort.
+
+__**Testing**__
+
+The website has an enticing home page which draws the user in. As the home page occupies the whole screen on loading there's
+a chevron indicating more information below which takes the user down to the about us section when clicked. It uses smooth 
+scrolling so there’s no jerky movements to the site and it navigates well.
+
+The toggler dropdown menu provides the user with the option to scroll to the other sections of the website, this also uses 
+the smooth scroll-behaviour attribute. The menu automatically closes when navigated away from using some additional javascript.
+
+There is a description of the team behind the service as well as details of the timing and type of tips the service provides. 
+There is also a chart showing the systems result over time, satisfying the users questions about how the service works. 
+Below this there is a contact form for the user to find out more information about the service if they still have questions.
 
 The contact form is not yet functional, the button takes you back to the home page. However it includes validation that each
 section has been completed.
@@ -71,25 +83,25 @@ on an actual IOS device. Addtional code was required in order to stop the logo f
     -ms-flex-align: center;
     -webkit-align-items: center;
 
-Deployment
+__**Deployment**__
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically
 upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be
 named index.html. The site is published at https://richep365.github.io/ShadowRacingAI/
 
-Credits
+__**Credits**__
 
-Content
+**Content**
 
 All content was written by me, including the disclaimer and terms & conditions, which I wrote and adapted from my website
 i-betuk.com for this project.
 
-Media
+**Media**
 
 The 2 horse racing photos were taken from pixabay.com, they have both had opaque overlays added. The logo was designed by
 me using Brandmark.io
 
-Acknowledgements
+**Acknowledgements**
 
 Addition of smooth scrolling was found at CCS-Tricks
 
