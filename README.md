@@ -33,7 +33,7 @@ rather than a static image and will be interactive for users.
 
 __**User Story**__
 
-As a user I am looking for a relaiable horse tipping service, that can provide me with daily tips with a simple user
+As a user I am looking for a reliable horse tipping service, that can provide me with daily tips with a simple user
 experience.
 
 I want a service that can provide me with consistant monthly profits, for a minimum of effort.
