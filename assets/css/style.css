@@ -20,7 +20,7 @@ html {
 img {
     max-width: 80%;
     height: auto;
-    text-align: center;
+
 }
 
 .about-heading,
@@ -45,7 +45,7 @@ img {
     color: #e0443c;
     display: inline-block;
     width: 100%;
-    text-align: center;
+
 }
 
 /*--------------------------------------------nav*/
@@ -120,7 +120,6 @@ img {
 
 .tagline {
     font-family: "Oswald", san-serif;
-    text-align: center;
     font-size: 35px;
     letter-spacing: 0.02em;
     font-weight: 100;
@@ -133,13 +132,12 @@ img {
     color: #e0443c;
     display: inline-block;
     width: 100%;
-    text-align: center;
+
 }
 /*--------------------------------------------About Us Section*/
 
 .aboutus-section {
     background-color: #fff;
-    text-align: center;
     max-width: 80%;
     margin: 0 auto;
 }
@@ -230,7 +228,6 @@ img {
     padding-top: 10px;
     margin: 0px auto;
     max-width: 60%;
-    text-align: center;
 }
 
 .form-margin {
@@ -267,7 +264,7 @@ box-shadow: 0 0 1px #e0443c inset;
 
 .affiliate-heading {
     background-color: #fafafa7e;
-    text-align: center;
+
 }
 
 .affiliate-message {
@@ -297,7 +294,7 @@ box-shadow: 0 0 1px #e0443c inset;
     width: 120px;
     border-radius: 500px;
     margin-bottom: 20px;
-    text-align: center;
+
 }
 
 .offer-text {
@@ -353,7 +350,6 @@ footer {
 .userguide i,
 .social-links li a i {
     font-size: 18px;
-    text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -388,7 +384,6 @@ footer {
         min-height: 240px;
         margin: 0 auto;
         max-width: 70%;
-        text-align: center;
     }
 
     .tagline {
