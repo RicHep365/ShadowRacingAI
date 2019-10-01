@@ -7,16 +7,16 @@ which gives the right impression to potential users.
 
 **Technologies**
 
-    1.	HTML
-    2.	CSS
-    3.	jquery
-    4.	javascript
-    5.  Bootstrap 4.3.1
+1. html
+2. css
+3. jquery
+4. javascript
+5. bootstrap 4.3.1
 
 **External sources**
 
-    1. Font-Awesome
-    2. Google Fonts
+1. Font-Awesome
+2. Google Fonts
 
 __**Features**__
 
@@ -41,18 +41,18 @@ I want a service that can provide me with consistant monthly profits, for a mini
 __**Testing**__
 
 The website has an enticing home page which draws the user in. As the home page occupies the whole screen on loading there's
-a chevron indicating more information below which takes the user down to the about us section when clicked. It uses smooth 
+a chevron indicating more information below which takes the user down to the about us section when clicked. It uses smooth
 scrolling so there’s no jerky movements to the site and it navigates well.
 
-The toggler dropdown menu provides the user with the option to scroll to the other sections of the website, this also uses 
+The toggler dropdown menu provides the user with the option to scroll to the other sections of the website, this also uses
 the smooth scroll-behaviour attribute. The menu automatically closes when navigated away from using some additional javascript.
 
-There is a description of the team behind the service as well as details of the timing and type of tips the service provides. 
-There is also a chart showing the systems result over time, satisfying the users questions about how the service works. 
+There is a description of the team behind the service as well as details of the timing and type of tips the service provides.
+There is also a chart showing the systems results over time, satisfying the users questions about how the service works.
 Below this there is a contact form for the user to find out more information about the service if they still have questions.
 
-The contact form is not yet functional, the button takes you back to the home page. However it includes validation that each
-section has been completed.
+The contact form is not yet functional, the submit button currently opens the users default email. However the form includes
+validation that each section has been completed.
 
 The bookmaker logos in the affiliate section link directly to their websites and open in a separate browser window using
 'target="_blank"', as do the social icons in the footer (these only link to the home page of the sites as no social sites
@@ -71,7 +71,7 @@ justify-content: center;
 
 However despite the website working perfectly on all sizes in google chromes inspect feature, the was not the case when viewed
 on an actual IOS device. Addtional code was required in order to stop the logo from mis-shaping on all devices.
-
+```
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flex;
@@ -82,7 +82,7 @@ on an actual IOS device. Addtional code was required in order to stop the logo f
     -webkit-flex-align: center;
     -ms-flex-align: center;
     -webkit-align-items: center;
-
+```
 __**Deployment**__
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically
@@ -110,36 +110,36 @@ https://css-tricks.com/snippets/jquery/smooth-scrolling/
 This doesn't not work on IE or Safari it requires javascript to fix this issue, but that's outside te scope of this project.
 
 The short peice of javascript to close the toggle icon when navigating away, was taken from the following stackoverflow answer
-
-<script>
-    $(document).on('click', function() {
-        $('.collapse').collapse('hide');
-    })
-</script>
-
+```
+    <script>
+        $(document).on('click', function() {
+            $('.collapse').collapse('hide');
+        })
+    </script>
+```
 https://stackoverflow.com/questions/21496304/bootstrap-collapse-component-not-closing-menu-on-clicking-away/32608307
 
 The following code to remove the border from the toggle icon, when clicked, was also taken from stack overflow
-
-.navbar-toggler:focus,
-.navbar-toggler:active {
-    outline: none;
-    box-shadow: none;
-}
-
+```
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+    }
+```
 https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4
 
 The code to change the focus colour of the active form cells was found at the following link.
 
 https://blog.blakesimpson.co.uk/read/71-changing-the-twitter-bootstrap-input-outline-color
-
-.center-form input:focus,
-.center-form textarea:focus,
-.center-form select:focus {
-border-color: #e0443c;
-box-shadow: 0 0 1px #e0443c inset;
-}
-
+```
+    .center-form input:focus,
+    .center-form textarea:focus,
+    .center-form select:focus {
+        border-color: #e0443c;
+        box-shadow: 0 0 1px #e0443c inset;
+        }
+```
 I also had to look up how to add a favicon, and found the simple answer here.
 
 https://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page
